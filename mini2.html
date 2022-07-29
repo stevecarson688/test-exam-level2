@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mini2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <table boder bgcolor="sarcelle">
+        <tbody>
+            <tr>
+                <th>
+                    <form name="calculatrice">
+                        <center>
+                            <textarea style="WIDTH: 186px; HEIGHT: 24px; TEXT-ALIGN:right;" name="result" align="right"
+                                class="affiche"></textarea>
+
+                            <br>
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b2"
+                                value="7" onclick="ajouter('7')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b3"
+                                value="8" onclick="ajouter('8')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b4"
+                                value="9" onclick="ajouter('9')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b12"
+                                value=":" onclick="ajouter('/')" size="30">
+                            <br>
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b5"
+                                value="4" onclick="ajouter('4')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b6"
+                                value="5" onclick="ajouter('5')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b7"
+                                value="6" onclick="ajouter('6')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b11"
+                                value="x" onclick="ajouter('*')" size="30">
+
+                            <br>
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b8"
+                                value="1" onclick="ajouter('1')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b9"
+                                value="2" onclick="ajouter('2')" size="30">
+
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b10"
+                                value="3" onclick="ajouter('3')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b13"
+                                value="-" onclick="ajouter('-')" size="30">
+
+                            <br>
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 92px; HEIGHT: 24px" type="button" name="b14"
+                                value="0" onclick="ajouter('0')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b15"
+                                value="." onclick="ajouter('.')" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b16"
+                                value="+" onclick="ajouter('+')" size="30">
+
+                            <br>
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 140px; HEIGHT: 24px" type="reset" name="b17"
+                                value="ON/C" size="30">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 44px; HEIGHT: 24px" type="button" name="b18"
+                                value="=" onclick="calcul()" size="30">
+
+                            <br>
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 60px; HEIGHT: 24px" type="button" class="button"
+                                value="sqrt " onclick="fonction_speciale('sqrt')">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 60px; HEIGHT: 24px" type="button" class="button"
+                                value=" pow " onclick="fonction_speciale('pow')">
+
+                            <input style="FONT-WEIGHT: bold; WIDTH: 60px; HEIGHT: 24px" type="button" class="button"
+                                value=" log " onclick="fonction_speciale('log')">
+
+                        </center>
+                    </form>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="mini2.js"></script>
+</body>
+
+</html>
